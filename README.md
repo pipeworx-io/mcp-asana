@@ -82,3 +82,7 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+This pack runs against a connected asana account, so it needs a Pipeworx key: sign in at https://pipeworx.io/account, connect asana, then call `POST https://gateway.pipeworx.io/v1/tools/asana_list_workspaces` with `Authorization: Bearer <your Pipeworx key>`. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/asana_list_workspaces`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
