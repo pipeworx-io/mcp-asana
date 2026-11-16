@@ -1,7 +1,7 @@
 {
   "name": "@pipeworx/mcp-asana",
-  "version": "0.2.1",
-  "description": "Asana MCP — wraps the Asana REST API (OAuth)",
+  "version": "0.2.2",
+  "description": "Unofficial Asana MCP — wraps the Asana REST API (OAuth)",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "asana",
     "gatewaySlug": "asana",
-    "sourceHash": "v1-084caa7d23f4482b838532d161f86549e9d744b98fc0a0b95936970449a78af7",
-    "sourceCommit": "5cb09714e895571153f3d9663c36ff0f140cadd6"
+    "sourceHash": "v1-d0f756bf167a1f6e519a52ce51a36dab935a6b743041d9b54c0ca00b493618b1",
+    "sourceCommit": "874331b0c46b151f9264bd14840631427a7721c1"
   }
 }
